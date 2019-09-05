@@ -8,7 +8,10 @@ Like that
 /////.nav-item:hover:before{width:".<=>.";}/////
 ////////////////////////////////////////////////
 */
-
+li{
+    list-style: none;
+    display: inline-block;
+}
 .nav-item{
     text-decoration: none;
     position: relative;
