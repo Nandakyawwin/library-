@@ -1,4 +1,4 @@
-<h><<How to use Navbar effect!!!!>></h>
+<h align="center"><<How to use Navbar effect!!!!>></h>
 <br><br>
 <hr>
 your <a>which is in the <li> have to set nav-item.......;p
