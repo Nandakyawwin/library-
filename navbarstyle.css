@@ -1,0 +1,33 @@
+/*
+        <<How to use Navbar effect!!!!>>
+your <a>which is in the <li> have to set nav-item.......;p
+if your text of nav item is so larger,
+You can adjust in the <=>....
+Like that
+////////////////////////////////////////////////
+/////.nav-item:hover:before{width:".<=>.";}/////
+////////////////////////////////////////////////
+*/
+
+.nav-item{
+    text-decoration: none;
+    position: relative;
+    color: silver;
+    font-family: serif;
+    display: block;
+    overflow: hidden;
+    transition: 0.7s all;
+}
+.nav-item:before{
+    content: '';
+    width: 0px;
+    position: absolute;
+    border-bottom: 5px solid yellow;
+    bottom: 0;
+    transition: 0.5s all;
+}
+.nav-item:hover:before{
+
+    width: 40px;
+    transition: .9s all;
+}
